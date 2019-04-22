@@ -1,18 +1,9 @@
 package tests;
 
-import okhttp3.WebSocket;
-import org.eclipse.jetty.websocket.api.annotations.OnWebSocketConnect;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 import testData.EmailDTO;
 import testData.RegistrationDTO;
 import testData.RESTAPI;
-import testData.RegistrationDTO;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.websocket.OnOpen;
-import java.io.IOException;
 
 public class RESTAPITest extends BaseTest {
 
