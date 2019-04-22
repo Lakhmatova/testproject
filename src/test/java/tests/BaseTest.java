@@ -16,7 +16,7 @@ public class BaseTest {
 
     @BeforeSuite
     public void beforeSuite() {
-        System.setProperty("headless", "false"); // You can set this property elsewhere
+        System.setProperty("headless", "false");
         String headless = System.getProperty("headless");
         String path = System.getProperty("user.dir");
         System.setProperty("webdriver.chrome.driver", path + "\\chromedriver.exe");
