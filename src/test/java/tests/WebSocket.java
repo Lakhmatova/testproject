@@ -37,6 +37,7 @@ public class WebSocket implements RestClient {
         EmailDTO emailDTO = new EmailDTO();
         HttpEntity<EmailDTO> request = new HttpEntity<>(emailDTO, setAuthHeadersAny("988ee8a2479083592cc9f189cde801c5"));
         Session session = (Session)wsPacket;
+//comment
 
         onOpen(session);
         try {
