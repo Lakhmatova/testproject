@@ -31,14 +31,12 @@ public class WebSocket implements RestClient {
             e.printStackTrace();
         }
     }
-
+//comment 1
     @Test
     public void testWebSocket(Object wsPacket){
         EmailDTO emailDTO = new EmailDTO();
         HttpEntity<EmailDTO> request = new HttpEntity<>(emailDTO, setAuthHeadersAny("988ee8a2479083592cc9f189cde801c5"));
         Session session = (Session)wsPacket;
-//comment
-
         onOpen(session);
         try {
             onClose(session);
