@@ -29,10 +29,12 @@ public class WebSocket implements RestClient {
             session.getBasicRemote().sendText("You open session");
         } catch (IOException e) {
             e.printStackTrace();
+            //comment
+
+
         }
     }
-//comment
-    //test comment
+
     @Test
     public void testWebSocket(Object wsPacket){
         EmailDTO emailDTO = new EmailDTO();
