@@ -31,7 +31,8 @@ public class WebSocket implements RestClient {
             e.printStackTrace();
         }
     }
-//comment 1
+//comment
+    //test comment
     @Test
     public void testWebSocket(Object wsPacket){
         EmailDTO emailDTO = new EmailDTO();
